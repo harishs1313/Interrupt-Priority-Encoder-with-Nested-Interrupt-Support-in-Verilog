@@ -1,0 +1,198 @@
+$date
+	Sat Jun 07 18:21:22 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_ipe_advanced $end
+$var wire 32 ! vector_addr [31:0] $end
+$var wire 1 " nested_int_pending $end
+$var wire 3 # irq_id [2:0] $end
+$var wire 8 $ irq_ack [7:0] $end
+$var wire 1 % int_valid $end
+$var reg 1 & clk $end
+$var reg 1 ' cpu_ack $end
+$var reg 3 ( current_isr_priority [2:0] $end
+$var reg 8 ) interrupts [7:0] $end
+$var reg 8 * mask_reg [7:0] $end
+$var reg 2 + priority_mode [1:0] $end
+$var reg 1 , reset_n $end
+$scope module dut $end
+$var wire 8 - active_irqs [7:0] $end
+$var wire 1 & clk $end
+$var wire 1 ' cpu_ack $end
+$var wire 3 . current_isr_priority [2:0] $end
+$var wire 8 / edge_irqs [7:0] $end
+$var wire 8 0 interrupts [7:0] $end
+$var wire 8 1 mask_reg [7:0] $end
+$var wire 1 " nested_int_pending $end
+$var wire 2 2 priority_mode [1:0] $end
+$var wire 1 , reset_n $end
+$var wire 32 3 vector_addr [31:0] $end
+$var reg 1 % int_valid $end
+$var reg 8 4 irq_ack [7:0] $end
+$var reg 3 5 irq_id [2:0] $end
+$var reg 8 6 prev_irq [7:0] $end
+$var reg 3 7 rr_counter [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 7
+b0 6
+b0 5
+b0 4
+b1000000000000 3
+b0 2
+b0 1
+b0 0
+b0 /
+b111 .
+b0 -
+0,
+b0 +
+b0 *
+b0 )
+b111 (
+0'
+0&
+0%
+b0 $
+b0 #
+0"
+b1000000000000 !
+$end
+#5000
+1&
+#10000
+b1 /
+b1 -
+0&
+b1 )
+b1 0
+1,
+#15000
+b0 /
+1"
+1%
+b1 6
+1&
+#20000
+0&
+#25000
+0"
+0%
+1&
+#30000
+b0 -
+0&
+1'
+b0 )
+b0 0
+#35000
+b0 6
+1&
+#40000
+0&
+0'
+#45000
+1&
+#50000
+b10 /
+b10 -
+0&
+b10 )
+b10 0
+b11 (
+b11 .
+#55000
+b0 /
+1"
+1%
+b1000000000100 !
+b1000000000100 3
+b1 #
+b1 5
+b10 6
+1&
+#60000
+0&
+#65000
+0"
+0%
+1&
+#70000
+0&
+1'
+#75000
+1&
+#80000
+b100000 /
+b100000 -
+0&
+b100000 )
+b100000 0
+0'
+#85000
+b0 /
+1%
+b1000000010100 !
+b1000000010100 3
+b101 #
+b101 5
+b100000 6
+1&
+#90000
+0&
+#95000
+0%
+1&
+#100000
+0&
+#105000
+1&
+#110000
+0&
+#115000
+1&
+#120000
+0&
+#125000
+1&
+#130000
+0&
+#135000
+1&
+#140000
+0&
+#145000
+1&
+#150000
+0&
+#155000
+1&
+#160000
+0&
+#165000
+1&
+#170000
+0&
+#175000
+1&
+#180000
+0&
+#185000
+1&
+#190000
+0&
+#195000
+1&
+#200000
+0&
